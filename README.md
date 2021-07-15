@@ -4,6 +4,7 @@
 >3. Tensor 2.4.0 Containner 21.05를 사용    
 1. 다운로드 하기전 의존성 패키지와 사전에 필요한 패키지들을 install하고 .sh파일을 실행시켜 mediapipe 설치.
 ~~~
+#Setup
 pip install setup
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
@@ -13,6 +14,7 @@ rm get-pip.py
 sudo pip3 install pip --upgrade
 sudo pip3 install opencv_contrib_python
 
+#mediapipe 
 git clone https://github.com/PINTO0309/mediapipe-bin
 cd mediapipe-bin
 
