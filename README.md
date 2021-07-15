@@ -24,4 +24,7 @@ sudo pip3 install \
 numpy-1.19.4-cp36-none-manylinux2014_aarch64.whl \
 mediapipe-0.8.5_cuda102-cp36-none-linux_aarch64.whl
 ~~~
-2.
+
+2.no module name Tenosrflow error
+~~~
+~~~
