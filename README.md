@@ -3,7 +3,7 @@
 >2. Nano를 이용하여 Mediapipe를 설치.sh파일을 그대로 사용하여 사양에 맞춰 나머지 버전을 업그레이드 해줘야함    
 >3. Tensor 2.4.0 Containner 21.05를 사용    
 1. 터미널
-"
+“`
 pip install setup
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
@@ -21,4 +21,4 @@ cd mediapipe-bin
 sudo pip3 install \
 numpy-1.19.4-cp36-none-manylinux2014_aarch64.whl \
 mediapipe-0.8.5_cuda102-cp36-none-linux_aarch64.whl
-"
+“`
