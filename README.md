@@ -25,7 +25,7 @@ numpy-1.19.4-cp36-none-manylinux2014_aarch64.whl \
 mediapipe-0.8.5_cuda102-cp36-none-linux_aarch64.whl
 ~~~
 
-2.no module name Tenosrflow error
+2.no module name Tenosrflow error solution
 > 텐서플로우를 설치해줘야 한다.  
 ## 설치 전 환경 설정
 
@@ -43,17 +43,17 @@ sudo pip3 install -U pip testresources setuptools
 
 + Install the Python package dependencies
 ```
-sudo pip3 install -U numpy==1.16.1 future==0.18.2 mock==3.0.5 h5py==2.10.0 keras_preprocessing==1.1.1 keras_applications==1.0.8 gast==0.2.2 futures protobuf pybind11
+sudo pip3 install -U numpy==1.19.4 future==0.18.2 mock==3.0.5 h5py==2.10.0 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.2.2 futures protobuf pybind11
 ```
 
 ## Tensorflow install
 + tensorflow 설치
 ```bash
 # version 입력
-# 젯팩 4.5 / tensorflow 2.3.1 / nvidia container 20.12
+# 젯팩 4.5 / tensorflow 2.4.0 / nvidia container 21.05
 export JP_VERSION=45
-export TF_VERSION=2.3.1
-export NV_VERSION=20.12
+export TF_VERSION=2.4.0
+export NV_VERSION=21.05
 
 # install command
 sudo pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v$JP_VERSION tensorflow==$TF_VERSION+nv$NV_VERSION
@@ -67,8 +67,8 @@ $TF_VERSION -> 텐서플로우 버전
 $NV_VERSION -> NVIDIA 컨테이너 버전
 
 젯팩 4.5 version => v45
-텐서플로우 2.3.1 => tensorflow==2.3.1
-컨테이너 20.12 => nv20.12
+텐서플로우 2.4.0 => tensorflow==2.4.0
+컨테이너 21.05 => nv21.05
 ```
 
 * 설치 확인
